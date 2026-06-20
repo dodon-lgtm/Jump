@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lompat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <canvas id="game"></canvas>
+
+        <div class="hud">
+            <div class="hud-row">
+                <div id="scorejln" class="hud-keterangan"></div>
+                <div id="score" class="hud-keterangan">Skor Point: 0</div>
+            </div>
+            <div id="highscore" class="hud-high">High Score : 0</div>
+        </div>
+
+        <div id="overlay" class="overlay">
+            <div class="overlay-card">
+                <h1 class="overlay-title">Lompat HD</h1>
+                <p class="overlay-sub">Tekan <b>Space</b> / klik untuk lompat</p>
+                <button id="btnStart" class="overlay-btn">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
